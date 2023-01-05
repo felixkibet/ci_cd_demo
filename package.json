@@ -1,0 +1,21 @@
+{
+  "name": "ci_cd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "jest src/app.test.js"
+  },
+  "keywords": [],
+  "author": "Felix Kibet",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.3.1",
+    "supertest": "^6.3.3"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2"
+  }
+}
